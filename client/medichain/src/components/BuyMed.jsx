@@ -1,4 +1,4 @@
-// src/pages/BuyMed.jsx
+
 import React, { useState, useContext } from "react";
 import { SupplyChainContext } from "../utils/SupplyChainContext";
 import MedForm from "./template/MedForm";

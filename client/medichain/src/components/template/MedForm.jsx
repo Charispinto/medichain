@@ -1,4 +1,4 @@
-// src/components/MedForm.jsx
+// this is the template where we will be writting the css for form
 import React from 'react';
 import PropTypes from 'prop-types';
 
