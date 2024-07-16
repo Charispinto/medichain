@@ -1,6 +1,7 @@
 // this is the template where we will be writting the css for form
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from '@mui/material/Button';
 
 function MedForm({ handleSubmit, setName, setQuantity }) {
   return (
@@ -25,7 +26,7 @@ function MedForm({ handleSubmit, setName, setQuantity }) {
           onChange={(e) => setQuantity(e.target.value)}
         />
       </div>
-      <button type="submit">Submit</button>
+      <Button type="submit" variant='contained '>Submit</Button>
     </form>
   );
 }
