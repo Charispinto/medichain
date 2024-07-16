@@ -1,6 +1,6 @@
 import React,{ createContext, useState, useEffect } from "react";
 import Web3 from "web3";
-import MedicineSupplyChain from "../contracts/MedicineSupplyChain.json";
+import MedicineSupplyChain from "../../../../contracts/build/contracts/MedicineSupplyChain.json";
 
 export const SupplyChainContext = createContext();
 
