@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Web3 from "web3";
-import MedicineSupplyChain from "../../../../contracts/build/contracts/MedicineSupplyChain.json";
+import MedicineSupplyChain from "../../../contracts/build/contracts/MedicineSupplyChain.json";
 import "./App.css";
 import Customer from "./pages/Customer";
 import Manufacturer from "./pages/Manufacturer";
