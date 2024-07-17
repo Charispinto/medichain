@@ -1,16 +1,18 @@
+//added a heading to each pages
 import React from 'react';
 import AddNewMed from '../components/AddNewMed';
 import {SupplyChainProvider } from '../utils/SupplyChainContext';
 import ViewNewMed from '../components/ViewNewMed';
-function Manufacturer() {
+function Manufacturer() { 
   return (
     <div>
-        <h1>Manufacturer</h1>
-        <h3>Add new med</h3>
+        <h1 className='text-2xl font-semibold text-center text-sky-700'>Welcome, Manufacturer</h1>
+        <br/>
         <SupplyChainProvider>
-          <AddNewMed/>
+        <AddNewMed/>
+        <br />
+        <ViewNewMed/>
           <br/>
-          <ViewNewMed/>
         </SupplyChainProvider>
     </div>
   )

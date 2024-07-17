@@ -6,6 +6,7 @@ import ViewMed from '../components/ViewMed';
 function Retailer() {
   return (
     <div>
+      <h1 className='text-2xl font-semibold text-center text-sky-700'>Welcome, Retailer</h1>
       <SupplyChainProvider>
         <ViewNewMed/>
         <br/>

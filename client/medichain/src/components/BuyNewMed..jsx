@@ -1,4 +1,4 @@
-
+//made changes to the captions on the page
 import React, { useState, useContext } from "react";
 import { SupplyChainContext } from "../utils/SupplyChainContext";
 import MedForm from "./template/MedForm";
@@ -28,7 +28,7 @@ function BuyNewMed() {
 
   return (
     <div>
-      <h2>Buy New Med</h2>
+      <h2 className="text-center text-sky-600 py-3">Place an order to restock your pharmacy with new medicines</h2>
       <MedForm handleSubmit={handleSubmit} setName={setName} setQuantity={setQuantity} />
     </div>
   );
