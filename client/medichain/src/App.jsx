@@ -8,6 +8,7 @@ import Manufacturer from "./pages/Manufacturer";
 import Retailer from "./pages/Retailer";
 import Transactions from "./pages/Transactions";
 import Landing from "./pages/Landing";
+import Navbar from "./components/Navbar";
 function App() {
   const [web3, setWeb3] = useState(null);
   const [Contract, setContract] = useState(null);
@@ -41,17 +42,18 @@ function App() {
     }
   }, []);
   return (
+    <>
     <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route index element={<Landing/>} />
         <Route path="/manufacturer" element={<Manufacturer/>} />
         <Route path="/retailer" element={<Retailer/>} />
         <Route path="/customer" element={<Customer/>} />
         <Route path="/transactions" element={<Transactions/>} />
-        {/* <Route index element={<CourseRegs web3={web3} courseContract={courseContract}  />} />
-                <Route path="admin" element={<Admin web3={web3} courseContract={courseContract}  />} /> */}
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 

@@ -16,12 +16,7 @@ const Landing=()=> {
     }
   return (
     <div>
-        <h1>Welcome to Medichain</h1>
-        <p>go to:</p>
-        <p onClick={handleMan}>manufacturer</p >
-        <p onClick={handleRet}>retailer</p>
-        <p onClick={handleCust}>customer</p>
-        <p onClick={handleViewTransc}>Transac</p>
+        <h1 className='text-red-900 text-center'>Welcome to Medichain</h1>
     </div>
   )
 }
