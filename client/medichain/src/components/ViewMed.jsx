@@ -9,7 +9,7 @@ function ViewMed() {
 
   
     const handleClick = async (e) => {
-      e.preventDefault();
+      // e.preventDefault();
       if (!web3 || !contract) return;
       const medList = await contract.methods.viewAllMed().call();
       const medicineList= medList.map(med => ({

@@ -31,7 +31,7 @@ function ViewingMeds({ medicines, buttonLabel, handleClick }) {
               {medicines.map((med, index) => (
                 <tr key={index}>
                   <td>{med.quantity}</td>
-                  <td>{new Date(med.timestamp).toLocaleString()}</td>
+                  <td>{med.timestamp}</td>
                   <td>{med.name}</td>
                 </tr>
               ))}
