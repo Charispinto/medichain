@@ -8,6 +8,7 @@ import Manufacturer from "./pages/Manufacturer";
 import Retailer from "./pages/Retailer";
 import Transactions from "./pages/Transactions";
 import Landing from "./pages/Landing";
+import Analytics from "./pages/Analytics";
 import Navbar from "./components/Navbar";
 function App() {
   const [web3, setWeb3] = useState(null);
@@ -51,6 +52,7 @@ function App() {
         <Route path="/retailer" element={<Retailer/>} />
         <Route path="/customer" element={<Customer/>} />
         <Route path="/transactions" element={<Transactions/>} />
+        <Route path="/analytics" element={<Analytics/>} />
       </Routes>
     </BrowserRouter>
     </>

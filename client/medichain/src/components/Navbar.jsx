@@ -7,7 +7,8 @@ function Navbar() {
     { name: "Manufacturer", path: "/manufacturer" },
     { name: "Retailer", path: "/retailer" },
     { name: "Customer", path: "/customer" },
-    { name: "View All Transactions", path: "/transactions" },
+    // { name: "View All Transactions", path: "/transactions" },
+    { name: "View Analytics", path: "/analytics" },
   ];
 
   return (
