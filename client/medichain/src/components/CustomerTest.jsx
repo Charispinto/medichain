@@ -5,10 +5,9 @@ function CustomerTest({medicines,  handleSubmit, setName, setQuantity,handleClic
     
     return (
     <div className="w-full max-w-7xl mt-8">
-        <button className="btn btn-outline btn-info" onClick={handleClick}>
-        Refresh
-        </button>
-        <h2 className="text-2xl font-bold mb-4 text-center text-sky-700">Available Medicine</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-center text-sky-700">Available Medicine</h2>
+        
+        
         {/* <p>{medicines['dolo']}</p> */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {medicines.map((medicine, index) => (
@@ -20,6 +19,9 @@ function CustomerTest({medicines,  handleSubmit, setName, setQuantity,handleClic
             </div>
           ))}
         </div>
+        <button className="btn btn-outline btn-info mt-10" onClick={handleClick}>
+        Refresh
+        </button>
       </div>
   )
 }

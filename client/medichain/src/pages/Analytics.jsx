@@ -5,7 +5,7 @@ import ViewRequests from '../components/ViewRequests';
 function Analytics() { 
   return (
     <div>
-        <h1 className='text-2xl font-semibold text-center text-sky-700'>Welcome to Analytics</h1>
+        <h1 className='text-2xl font-semibold text-center text-sky-700 mt-12'>Welcome to Analytics</h1>
         <br/>
         <SupplyChainProvider>
         <ViewRequests/>

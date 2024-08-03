@@ -27,7 +27,7 @@ function RequestMed() {
 
   return (
     <div>
-      <h2 className="text-center text-sky-600 py-3">Request the medicines you need</h2>
+      <h2 className="text-center text-sky-600 py-3 ">Can't find the medicine you need?</h2>
       <MedForm handleSubmit={handleSubmit} setName={setName} setQuantity={setQuantity} />
     </div>
   );

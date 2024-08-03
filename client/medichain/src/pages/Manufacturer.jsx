@@ -6,7 +6,7 @@ import ViewNewMed from '../components/ViewNewMed';
 function Manufacturer() { 
   return (
     <div>
-        <h1 className='text-2xl font-semibold text-center text-sky-700'>Welcome, Manufacturer</h1>
+        <h1 className='text-2xl font-semibold text-center text-sky-700 mt-12'>Welcome, Manufacturer</h1>
         <br/>
         <SupplyChainProvider>
         <AddNewMed/>

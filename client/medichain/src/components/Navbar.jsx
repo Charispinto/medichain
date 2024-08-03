@@ -7,12 +7,11 @@ function Navbar() {
     { name: "Manufacturer", path: "/manufacturer" },
     { name: "Retailer", path: "/retailer" },
     { name: "Customer", path: "/customer" },
-    // { name: "View All Transactions", path: "/transactions" },
     { name: "View Analytics", path: "/analytics" },
   ];
 
   return (
-    <div className="navbar bg-base-100 shadow-md mb-6">
+    <div className="navbar bg-base-100 shadow-md sticky top-0 z-10">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl " onClick={() => navigate("/")}>MediChain</a>
       </div>

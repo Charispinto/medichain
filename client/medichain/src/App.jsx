@@ -25,8 +25,7 @@ function App() {
           // console.log(window.ethereum)
           setWeb3(web3Instance);
           console.log(
-            contractAddress,
-            "0x9b83B66bcC7f7941ea94A2Bbf4e2832Db62957C8"
+            contractAddress
           );
           const contractInstance = new web3Instance.eth.Contract(
             contractABI,
